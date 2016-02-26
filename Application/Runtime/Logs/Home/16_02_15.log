@@ -1,0 +1,1978 @@
+[ 2016-02-15T15:19:31+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.032222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017708s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022279s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022579s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.017709s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017993s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012153s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012487s ]
+
+[ 2016-02-15T15:19:35+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000896s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001582s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+
+[ 2016-02-15T15:20:14+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.2557s ]
+SQL: SELECT * FROM `users` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001014s ]
+
+[ 2016-02-15T15:35:55+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001045s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `users` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-02-15T15:36:28+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `users` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-02-15T15:36:29+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `users` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-02-15T15:36:29+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `users` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-02-15T15:37:41+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `users` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.004073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004212s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.133611s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.133832s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000932s ]
+
+[ 2016-02-15T16:53:17+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000228s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001467s ]
+
+[ 2016-02-15T16:53:34+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001063s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bbt_message` [ RunTime:0.0059s ]
+NOTIC: [8] Undefined variable: desc E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\MessageController.class.php 第 25 行.
+ERR: Think\Model:relation方法不存在！
+
+[ 2016-02-15T16:55:01+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bbt_message` [ RunTime:0.0061s ]
+NOTIC: [8] Undefined variable: desc E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\MessageController.class.php 第 25 行.
+ERR: Think\Model:relation方法不存在！
+
+[ 2016-02-15T16:55:01+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001462s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bbt_message` [ RunTime:0.0042s ]
+NOTIC: [8] Undefined variable: desc E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\MessageController.class.php 第 25 行.
+ERR: Think\Model:relation方法不存在！
+
+[ 2016-02-15T16:55:02+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001507s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `bbt_message` [ RunTime:0.0079s ]
+NOTIC: [8] Undefined variable: desc E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\MessageController.class.php 第 25 行.
+ERR: Think\Model:relation方法不存在！
+
+[ 2016-02-15T16:55:02+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbt_message` [ RunTime:0.0039s ]
+NOTIC: [8] Undefined variable: desc E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\MessageController.class.php 第 25 行.
+ERR: Think\Model:relation方法不存在！
+
+[ 2016-02-15T16:58:30+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-02-15T16:58:52+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bbt_message` [ RunTime:0.0071s ]
+NOTIC: [8] Undefined variable: desc E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\MessageController.class.php 第 25 行.
+NOTIC: [8] Undefined offset: 0 E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+ERR: 1048:Column 'description' cannot be null
+ [ SQL语句 ] : INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`) VALUES (NULL,'通知标题','NORMAL','17')
+ERR: 1048:Column 'description' cannot be null
+ [ SQL语句 ] : INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`) VALUES (NULL,'通知标题','NORMAL','17')
+
+[ 2016-02-15T16:59:48+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbt_message` [ RunTime:0.0076s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`) VALUES ('通知内容','通知标题','NORMAL','17') [ RunTime:0.1039s ]
+NOTIC: [8] Undefined index: mapping_name E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+NOTIC: [8] Undefined offset: 0 E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`) VALUES ('通知内容','通知标题','NORMAL','17') [ RunTime:0.0547s ]
+NOTIC: [8] Undefined index: mapping_name E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+NOTIC: [8] Undefined offset: 0 E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`) VALUES ('通知内容','通知标题','NORMAL','17') [ RunTime:0.0543s ]
+NOTIC: [8] Undefined index: mapping_name E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+NOTIC: [8] Undefined offset: 0 E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`) VALUES ('通知内容','通知标题','NORMAL','17') [ RunTime:0.0442s ]
+NOTIC: [8] Undefined index: mapping_name E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000974s ]
+
+[ 2016-02-15T17:00:38+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbt_message` [ RunTime:0.0057s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`) VALUES ('通知内容','通知标题','NORMAL','17') [ RunTime:0.0773s ]
+NOTIC: [8] Undefined index: mapping_name E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+ERR: 1146:Table 'bbter.bbt_receiver' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `bbt_receiver`
+ERR: 1146:Table 'bbter.bbt_receiver' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `bbt_receiver`
+
+[ 2016-02-15T17:00:58+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001284s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bbt_message` [ RunTime:0.0058s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`) VALUES ('通知内容','通知标题','NORMAL','17') [ RunTime:0.0979s ]
+NOTIC: [8] Undefined index: mapping_name E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+ERR: 1146:Table 'bbter.bbt_receiver' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `bbt_receiver`
+ERR: 1146:Table 'bbter.bbt_receiver' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `bbt_receiver`
+
+[ 2016-02-15T17:00:58+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbt_message` [ RunTime:0.0037s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`) VALUES ('通知内容','通知标题','NORMAL','17') [ RunTime:0.0433s ]
+NOTIC: [8] Undefined index: mapping_name E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+ERR: 1146:Table 'bbter.bbt_receiver' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `bbt_receiver`
+ERR: 1146:Table 'bbter.bbt_receiver' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `bbt_receiver`
+
+[ 2016-02-15T17:00:58+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002891s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `bbt_message` [ RunTime:0.0036s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`) VALUES ('通知内容','通知标题','NORMAL','17') [ RunTime:0.0392s ]
+NOTIC: [8] Undefined index: mapping_name E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+ERR: 1146:Table 'bbter.bbt_receiver' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `bbt_receiver`
+ERR: 1146:Table 'bbter.bbt_receiver' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `bbt_receiver`
+
+[ 2016-02-15T17:01:23+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001068s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `bbt_message` [ RunTime:0.0054s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`) VALUES ('通知内容','通知标题','NORMAL','17') [ RunTime:0.0324s ]
+NOTIC: [8] Undefined index: mapping_name E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`) VALUES ('通知内容','通知标题','NORMAL','17') [ RunTime:0.0705s ]
+NOTIC: [8] Undefined index: mapping_name E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+NOTIC: [8] Undefined offset: 0 E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`) VALUES ('通知内容','通知标题','NORMAL','17') [ RunTime:0.0765s ]
+NOTIC: [8] Undefined index: mapping_name E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+NOTIC: [8] Undefined offset: 0 E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`) VALUES ('通知内容','通知标题','NORMAL','17') [ RunTime:0.0376s ]
+NOTIC: [8] Undefined index: mapping_name E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000948s ]
+
+[ 2016-02-15T17:03:08+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbt_message` [ RunTime:0.0057s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`) VALUES ('通知内容','通知标题','NORMAL','17') [ RunTime:0.0358s ]
+NOTIC: [8] Undefined index: mapping_name E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0065s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`) VALUES ('通知内容','通知标题','NORMAL','17') [ RunTime:0.0305s ]
+NOTIC: [8] Undefined index: mapping_name E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+NOTIC: [8] Undefined offset: 0 E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`) VALUES ('通知内容','通知标题','NORMAL','17') [ RunTime:0.0769s ]
+NOTIC: [8] Undefined index: mapping_name E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+NOTIC: [8] Undefined offset: 0 E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`) VALUES ('通知内容','通知标题','NORMAL','17') [ RunTime:0.0768s ]
+NOTIC: [8] Undefined index: mapping_name E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000979s ]
+
+[ 2016-02-15T17:03:53+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbt_message` [ RunTime:0.0056s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`) VALUES ('通知内容','通知标题','NORMAL','17') [ RunTime:0.0731s ]
+NOTIC: [8] Undefined index: mapping_name E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0089s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`) VALUES ('通知内容','通知标题','NORMAL','17') [ RunTime:0.1165s ]
+NOTIC: [8] Undefined index: mapping_name E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+NOTIC: [8] Undefined offset: 0 E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`) VALUES ('通知内容','通知标题','NORMAL','17') [ RunTime:0.0769s ]
+NOTIC: [8] Undefined index: mapping_name E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+NOTIC: [8] Undefined offset: 0 E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`) VALUES ('通知内容','通知标题','NORMAL','17') [ RunTime:0.0768s ]
+NOTIC: [8] Undefined index: mapping_name E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001228s ]
+
+[ 2016-02-15T17:06:15+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bbt_message` [ RunTime:0.0057s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`) VALUES ('通知内容','通知标题','NORMAL','17') [ RunTime:0.0818s ]
+NOTIC: [8] Undefined index: mapping_name E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0060s ]
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 305 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model.class.php 第 267 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 802 行.
+SQL: INSERT INTO `bbter_receiver` () VALUES () [ RunTime:0.0108s ]
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model.class.php 第 328 行.
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 305 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model.class.php 第 267 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 802 行.
+SQL: INSERT INTO `bbter_receiver` () VALUES () [ RunTime:0.0002s ]
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model.class.php 第 328 行.
+NOTIC: [8] Undefined offset: 0 E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`) VALUES ('通知内容','通知标题','NORMAL','17') [ RunTime:0.0771s ]
+NOTIC: [8] Undefined index: mapping_name E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 305 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model.class.php 第 267 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 802 行.
+SQL: INSERT INTO `bbter_receiver` () VALUES () [ RunTime:0.0003s ]
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model.class.php 第 328 行.
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 305 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model.class.php 第 267 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 802 行.
+SQL: INSERT INTO `bbter_receiver` () VALUES () [ RunTime:0.0003s ]
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model.class.php 第 328 行.
+NOTIC: [8] Undefined offset: 0 E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`) VALUES ('通知内容','通知标题','NORMAL','17') [ RunTime:0.0389s ]
+NOTIC: [8] Undefined index: mapping_name E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 305 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model.class.php 第 267 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 802 行.
+SQL: INSERT INTO `bbter_receiver` () VALUES () [ RunTime:0.0002s ]
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model.class.php 第 328 行.
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 305 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model.class.php 第 267 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 802 行.
+SQL: INSERT INTO `bbter_receiver` () VALUES () [ RunTime:0.0001s ]
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model.class.php 第 328 行.
+NOTIC: [8] Undefined offset: 0 E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`) VALUES ('通知内容','通知标题','NORMAL','17') [ RunTime:0.0389s ]
+NOTIC: [8] Undefined index: mapping_name E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 305 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model.class.php 第 267 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 802 行.
+SQL: INSERT INTO `bbter_receiver` () VALUES () [ RunTime:0.0003s ]
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model.class.php 第 328 行.
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 305 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model.class.php 第 267 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 802 行.
+SQL: INSERT INTO `bbter_receiver` () VALUES () [ RunTime:0.0002s ]
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model.class.php 第 328 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000838s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001034s ]
+
+[ 2016-02-15T17:07:04+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbt_message` [ RunTime:0.0054s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`) VALUES ('通知内容','通知标题','NORMAL','17') [ RunTime:0.0785s ]
+NOTIC: [8] Undefined index: mapping_name E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0063s ]
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 305 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model.class.php 第 267 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 802 行.
+SQL: INSERT INTO `bbter_receiver` () VALUES () [ RunTime:0.0003s ]
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model.class.php 第 328 行.
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 305 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model.class.php 第 267 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 802 行.
+SQL: INSERT INTO `bbter_receiver` () VALUES () [ RunTime:0.0002s ]
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model.class.php 第 328 行.
+NOTIC: [8] Undefined offset: 0 E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`) VALUES ('通知内容','通知标题','NORMAL','17') [ RunTime:0.0394s ]
+NOTIC: [8] Undefined index: mapping_name E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 305 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model.class.php 第 267 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 802 行.
+SQL: INSERT INTO `bbter_receiver` () VALUES () [ RunTime:0.0003s ]
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model.class.php 第 328 行.
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 305 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model.class.php 第 267 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 802 行.
+SQL: INSERT INTO `bbter_receiver` () VALUES () [ RunTime:0.0002s ]
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model.class.php 第 328 行.
+NOTIC: [8] Undefined offset: 0 E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`) VALUES ('通知内容','通知标题','NORMAL','17') [ RunTime:0.0395s ]
+NOTIC: [8] Undefined index: mapping_name E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 305 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model.class.php 第 267 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 802 行.
+SQL: INSERT INTO `bbter_receiver` () VALUES () [ RunTime:0.0003s ]
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model.class.php 第 328 行.
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 305 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model.class.php 第 267 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 802 行.
+SQL: INSERT INTO `bbter_receiver` () VALUES () [ RunTime:0.0002s ]
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model.class.php 第 328 行.
+NOTIC: [8] Undefined offset: 0 E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`) VALUES ('通知内容','通知标题','NORMAL','17') [ RunTime:0.0282s ]
+NOTIC: [8] Undefined index: mapping_name E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 305 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model.class.php 第 267 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 802 行.
+SQL: INSERT INTO `bbter_receiver` () VALUES () [ RunTime:0.0004s ]
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model.class.php 第 328 行.
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 305 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model.class.php 第 267 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 802 行.
+SQL: INSERT INTO `bbter_receiver` () VALUES () [ RunTime:0.0002s ]
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model.class.php 第 328 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001466s ]
+
+[ 2016-02-15T17:08:14+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001263s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bbt_message` [ RunTime:0.0057s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`) VALUES ('通知内容','通知标题','NORMAL','17') [ RunTime:0.0619s ]
+NOTIC: [8] Undefined index: mapping_name E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0053s ]
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 305 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model.class.php 第 267 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 802 行.
+SQL: INSERT INTO `bbter_receiver` () VALUES () [ RunTime:0.0003s ]
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model.class.php 第 328 行.
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 305 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model.class.php 第 267 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 802 行.
+SQL: INSERT INTO `bbter_receiver` () VALUES () [ RunTime:0.0002s ]
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model.class.php 第 328 行.
+
+[ 2016-02-15T17:08:33+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbt_message` [ RunTime:0.0062s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`) VALUES ('通知内容','通知标题','NORMAL','17') [ RunTime:0.0606s ]
+NOTIC: [8] Undefined index: mapping_name E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0086s ]
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 305 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model.class.php 第 267 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 802 行.
+SQL: INSERT INTO `bbter_receiver` () VALUES () [ RunTime:0.0003s ]
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model.class.php 第 328 行.
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 305 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model.class.php 第 267 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 802 行.
+SQL: INSERT INTO `bbter_receiver` () VALUES () [ RunTime:0.0003s ]
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model.class.php 第 328 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009948s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010140s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000790s ]
+
+[ 2016-02-15T17:09:04+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbt_message` [ RunTime:0.0056s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`) VALUES ('通知内容','通知标题','NORMAL','17') [ RunTime:0.0635s ]
+NOTIC: [8] Undefined index: mapping_name E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0053s ]
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 305 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model.class.php 第 267 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 802 行.
+SQL: INSERT INTO `bbter_receiver` () VALUES () [ RunTime:0.0003s ]
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model.class.php 第 328 行.
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 305 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model.class.php 第 267 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 802 行.
+SQL: INSERT INTO `bbter_receiver` () VALUES () [ RunTime:0.0003s ]
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model.class.php 第 328 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006792s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007020s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000616s ]
+
+[ 2016-02-15T17:12:07+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001131s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbt_message` [ RunTime:0.0061s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`) VALUES ('通知内容','通知标题','NORMAL','17') [ RunTime:0.0229s ]
+NOTIC: [8] Undefined index: mapping_name E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+NOTIC: [8] Undefined offset: 0 E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`) VALUES ('通知内容','通知标题','NORMAL','17') [ RunTime:0.0369s ]
+NOTIC: [8] Undefined index: mapping_name E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+NOTIC: [8] Undefined offset: 0 E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`) VALUES ('通知内容','通知标题','NORMAL','17') [ RunTime:0.0655s ]
+NOTIC: [8] Undefined index: mapping_name E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+NOTIC: [8] Undefined offset: 0 E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`) VALUES ('通知内容','通知标题','NORMAL','17') [ RunTime:0.0658s ]
+NOTIC: [8] Undefined index: mapping_name E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000964s ]
+
+[ 2016-02-15T17:27:30+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbt_message` [ RunTime:0.0058s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`) VALUES ('通知内容','通知标题','NORMAL','17') [ RunTime:0.0359s ]
+NOTIC: [8] Undefined index: mapping_name E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+NOTIC: [8] Undefined offset: 0 E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`) VALUES ('通知内容','通知标题','NORMAL','17') [ RunTime:0.0283s ]
+NOTIC: [8] Undefined index: mapping_name E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+NOTIC: [8] Undefined offset: 0 E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`) VALUES ('通知内容','通知标题','NORMAL','17') [ RunTime:0.0656s ]
+NOTIC: [8] Undefined index: mapping_name E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+NOTIC: [8] Undefined offset: 0 E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`) VALUES ('通知内容','通知标题','NORMAL','17') [ RunTime:0.0921s ]
+NOTIC: [8] Undefined index: mapping_name E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001094s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001247s ]
+
+[ 2016-02-15T17:29:10+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002505s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbt_message` [ RunTime:0.0056s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000944s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001078s ]
+
+[ 2016-02-15T17:31:04+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bbt_message` [ RunTime:0.0057s ]
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`) VALUES ('通知内容','通知标题','NORMAL','17') [ RunTime:0.1016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000920s ]
+
+[ 2016-02-15T17:31:36+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bbt_message` [ RunTime:0.0062s ]
+
+[ 2016-02-15T17:31:55+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbt_message` [ RunTime:0.0059s ]
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`,`publish_time`) VALUES ('通知内容','通知标题','NORMAL','17','2016201620162016-FebFeb-MonMon') [ RunTime:0.0709s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000950s ]
+
+[ 2016-02-15T17:32:12+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bbt_message` [ RunTime:0.0071s ]
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`,`publish_time`) VALUES ('通知内容','通知标题','NORMAL','17','2016-Feb-Mon') [ RunTime:0.0647s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000861s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001002s ]
+
+[ 2016-02-15T17:33:57+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000797s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001510s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbt_message` [ RunTime:0.0064s ]
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`,`publish_time`) VALUES ('通知内容','通知标题','NORMAL','17','2016-02-15') [ RunTime:0.0728s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001160s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001396s ]
+
+[ 2016-02-15T17:34:28+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001355s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bbt_message` [ RunTime:0.0066s ]
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`,`publish_time`) VALUES ('通知内容','通知标题','NORMAL','17','2016-02-15') [ RunTime:0.0701s ]
+
+[ 2016-02-15T17:34:53+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bbt_message` [ RunTime:0.0059s ]
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`,`publish_time`) VALUES ('通知内容','通知标题','NORMAL','17','2016-02-15') [ RunTime:0.0614s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000398s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010795s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011037s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001147s ]
+
+[ 2016-02-15T17:37:11+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbt_message` [ RunTime:0.0056s ]
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`,`publish_time`) VALUES ('通知内容','通知标题','NORMAL','17','2016-02-15') [ RunTime:0.0688s ]
+NOTIC: [8] Undefined variable: r1 E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\MessageController.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0065s ]
+SQL: INSERT INTO `bbter_receiver` (`readed`) VALUES ('1') [ RunTime:0.0295s ]
+SQL: INSERT INTO `bbter_receiver` (`readed`) VALUES ('1') [ RunTime:0.0284s ]
+SQL: INSERT INTO `bbter_receiver` (`readed`) VALUES ('1') [ RunTime:0.0659s ]
+SQL: INSERT INTO `bbter_receiver` (`readed`) VALUES ('1') [ RunTime:0.0660s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007282s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007523s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000632s ]
+
+[ 2016-02-15T17:38:17+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bbt_message` [ RunTime:0.0060s ]
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`,`publish_time`) VALUES ('通知内容','通知标题','NORMAL','17','2016-02-15') [ RunTime:0.0750s ]
+NOTIC: [8] Undefined variable: r1 E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\MessageController.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0074s ]
+SQL: INSERT INTO `bbter_receiver` (`readed`,`msg_id`) VALUES ('1','47') [ RunTime:0.0316s ]
+SQL: INSERT INTO `bbter_receiver` (`readed`,`msg_id`) VALUES ('1','47') [ RunTime:0.0366s ]
+SQL: INSERT INTO `bbter_receiver` (`readed`,`msg_id`) VALUES ('1','47') [ RunTime:0.0660s ]
+SQL: INSERT INTO `bbter_receiver` (`readed`,`msg_id`) VALUES ('1','47') [ RunTime:0.0769s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007258s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007457s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000629s ]
+
+[ 2016-02-15T17:39:20+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbt_message` [ RunTime:0.0065s ]
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`,`publish_time`) VALUES ('通知内容','通知标题','NORMAL','17','2016-02-15') [ RunTime:0.0817s ]
+NOTIC: [8] Undefined variable: r1 E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\MessageController.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0065s ]
+
+[ 2016-02-15T17:39:31+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bbt_message` [ RunTime:0.0081s ]
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`,`publish_time`) VALUES ('通知内容','通知标题','NORMAL','17','2016-02-15') [ RunTime:0.0839s ]
+NOTIC: [8] Undefined variable: r1 E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\MessageController.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0067s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009939s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000628s ]
+
+[ 2016-02-15T17:40:29+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000853s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `bbt_message` [ RunTime:0.0068s ]
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`,`publish_time`) VALUES ('通知内容','通知标题','NORMAL','17','2016-02-15') [ RunTime:0.0603s ]
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0054s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007199s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000598s ]
+
+[ 2016-02-15T17:40:58+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001510s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bbt_message` [ RunTime:0.0056s ]
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`,`publish_time`) VALUES ('通知内容','通知标题','NORMAL','17','2016-02-15') [ RunTime:0.0685s ]
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0067s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007446s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007643s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000622s ]
+
+[ 2016-02-15T17:41:25+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bbt_message` [ RunTime:0.0086s ]
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`,`publish_time`) VALUES ('通知内容','通知标题','NORMAL','17','2016-02-15') [ RunTime:0.0368s ]
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0069s ]
+SQL: INSERT INTO `bbter_receiver` (`readed`,`msg_id`) VALUES ('1','52') [ RunTime:0.0581s ]
+SQL: INSERT INTO `bbter_receiver` (`readed`,`msg_id`) VALUES ('1','52') [ RunTime:0.0659s ]
+SQL: INSERT INTO `bbter_receiver` (`readed`,`msg_id`) VALUES ('1','52') [ RunTime:0.0294s ]
+SQL: INSERT INTO `bbter_receiver` (`readed`,`msg_id`) VALUES ('1','52') [ RunTime:0.0361s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007257s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001055s ]
+
+[ 2016-02-15T17:41:51+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bbt_message` [ RunTime:0.0060s ]
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`,`publish_time`) VALUES ('通知内容','通知标题','NORMAL','17','2016-02-15') [ RunTime:0.0725s ]
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0082s ]
+SQL: INSERT INTO `bbter_receiver` (`readed`,`msg_id`) VALUES ('1','53') [ RunTime:0.0380s ]
+SQL: INSERT INTO `bbter_receiver` (`readed`,`msg_id`) VALUES ('1','53') [ RunTime:0.0294s ]
+SQL: INSERT INTO `bbter_receiver` (`readed`,`msg_id`) VALUES ('1','53') [ RunTime:0.0359s ]
+SQL: INSERT INTO `bbter_receiver` (`readed`,`msg_id`) VALUES ('1','53') [ RunTime:0.0660s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007207s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007470s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000633s ]
+
+[ 2016-02-15T17:42:32+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000907s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001335s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbt_message` [ RunTime:0.0060s ]
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`,`publish_time`) VALUES ('通知内容','通知标题','NORMAL','17','2016-02-15') [ RunTime:0.0737s ]
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0061s ]
+SQL: INSERT INTO `bbter_receiver` (`user_id`,`readed`,`msg_id`) VALUES ('1','1','54') [ RunTime:0.0227s ]
+SQL: INSERT INTO `bbter_receiver` (`user_id`,`readed`,`msg_id`) VALUES ('2','1','54') [ RunTime:0.0358s ]
+SQL: INSERT INTO `bbter_receiver` (`user_id`,`readed`,`msg_id`) VALUES ('4','1','54') [ RunTime:0.0659s ]
+SQL: INSERT INTO `bbter_receiver` (`user_id`,`readed`,`msg_id`) VALUES ('5','1','54') [ RunTime:0.0658s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000279s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007227s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000955s ]
+
+[ 2016-02-15T17:45:25+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003014s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbt_message` [ RunTime:0.0054s ]
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`,`publish_time`) VALUES ('通知内容','通知标题','NORMAL','17','2016-02-15') [ RunTime:0.0631s ]
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0062s ]
+SQL: INSERT INTO `bbter_receiver` (`user_id`,`readed`,`msg_id`) VALUES ('1','1','55') [ RunTime:0.0588s ]
+SQL: INSERT INTO `bbter_receiver` (`user_id`,`readed`,`msg_id`) VALUES ('2','1','55') [ RunTime:0.0660s ]
+SQL: INSERT INTO `bbter_receiver` (`user_id`,`readed`,`msg_id`) VALUES ('4','1','55') [ RunTime:0.0361s ]
+SQL: INSERT INTO `bbter_receiver` (`user_id`,`readed`,`msg_id`) VALUES ('5','1','55') [ RunTime:0.0292s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007218s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000949s ]
+
+[ 2016-02-15T19:56:44+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/checkMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012748s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `bbter_receiver` WHERE ( msg_id=55&&user_id=1 ) LIMIT 1   [ RunTime:0.0127s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.022677s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022890s ]
+
+[ 2016-02-15T19:57:01+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/checkMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `bbter_receiver` WHERE ( msg_id=55&&user_id=10 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008049s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000966s ]
+
+[ 2016-02-15T19:59:36+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/checkMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `bbter_receiver` WHERE ( msg_id=55&&user_id=10 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-02-15T19:59:46+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/checkMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `bbter_receiver` WHERE ( msg_id=55&&user_id=10 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007628s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000822s ]
+
+[ 2016-02-15T20:01:31+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/checkMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `bbter_receiver` WHERE ( msg_id=55&&user_id=10 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000631s ]
+
+[ 2016-02-15T20:01:43+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/checkMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `bbter_receiver` WHERE ( msg_id=55&&user_id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `bbter_receiver` SET `readed`='10' WHERE ( "msg_id=$msg_id&&user_id=1" ) [ RunTime:0.0538s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006993s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007234s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001010s ]
+
+[ 2016-02-15T20:02:28+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/checkMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001359s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `bbter_receiver` WHERE ( msg_id=55&&user_id=1 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: UPDATE `bbter_receiver` SET `readed`='10' WHERE ( "msg_id=$msg_id&&user_id=1" ) [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006889s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000613s ]
+
+[ 2016-02-15T20:05:21+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/checkMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001290s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `bbter_receiver` WHERE ( msg_id=55&&user_id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0038s ]
+SQL: UPDATE `bbter_receiver` SET `readed`='10' WHERE ( msg_id=55&&user_id=1 ) [ RunTime:0.0782s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007073s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001107s ]
+
+[ 2016-02-15T20:09:09+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/checkMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0059s ]
+SQL: UPDATE `bbter_receiver` SET `readed`='1' WHERE ( msg_id=55&&17 ) [ RunTime:0.0764s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007064s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000838s ]
+
+[ 2016-02-15T20:10:19+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/checkMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001235s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0061s ]
+NOTIC: [8] Undefined variable: msg_id E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\MessageController.class.php 第 55 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '&&17 )' at line 1
+ [ SQL语句 ] : UPDATE `bbter_receiver` SET `readed`='1' WHERE ( msg_id=&&17 )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '&&17 )' at line 1
+ [ SQL语句 ] : UPDATE `bbter_receiver` SET `readed`='1' WHERE ( msg_id=&&17 )
+
+[ 2016-02-15T20:10:45+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/checkMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001423s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0058s ]
+NOTIC: [8] Undefined variable: msg_id E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\MessageController.class.php 第 55 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '&&user_id=17 )' at line 1
+ [ SQL语句 ] : UPDATE `bbter_receiver` SET `readed`='1' WHERE ( msg_id=&&user_id=17 )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '&&user_id=17 )' at line 1
+ [ SQL语句 ] : UPDATE `bbter_receiver` SET `readed`='1' WHERE ( msg_id=&&user_id=17 )
+
+[ 2016-02-15T20:11:00+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/checkMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined variable: msg_id E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\MessageController.class.php 第 55 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '&user_id=17 )' at line 1
+ [ SQL语句 ] : UPDATE `bbter_receiver` SET `readed`='1' WHERE ( msg_id=&user_id=17 )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '&user_id=17 )' at line 1
+ [ SQL语句 ] : UPDATE `bbter_receiver` SET `readed`='1' WHERE ( msg_id=&user_id=17 )
+
+[ 2016-02-15T20:11:09+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/checkMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0058s ]
+NOTIC: [8] Undefined variable: msg_id E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\MessageController.class.php 第 55 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and user_id=17 )' at line 1
+ [ SQL语句 ] : UPDATE `bbter_receiver` SET `readed`='1' WHERE ( msg_id= and user_id=17 )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and user_id=17 )' at line 1
+ [ SQL语句 ] : UPDATE `bbter_receiver` SET `readed`='1' WHERE ( msg_id= and user_id=17 )
+
+[ 2016-02-15T20:11:40+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/checkMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0058s ]
+NOTIC: [8] Undefined variable: msg_id E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\MessageController.class.php 第 55 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '&& user_id=17 )' at line 1
+ [ SQL语句 ] : UPDATE `bbter_receiver` SET `readed`='1' WHERE ( msg_id= && user_id=17 )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '&& user_id=17 )' at line 1
+ [ SQL语句 ] : UPDATE `bbter_receiver` SET `readed`='1' WHERE ( msg_id= && user_id=17 )
+
+[ 2016-02-15T20:12:46+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/checkMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0067s ]
+NOTIC: [8] Undefined variable: msg_id E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\MessageController.class.php 第 55 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '& user_id=17 )' at line 1
+ [ SQL语句 ] : UPDATE `bbter_receiver` SET `readed`='1' WHERE ( msg_id= & user_id=17 )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '& user_id=17 )' at line 1
+ [ SQL语句 ] : UPDATE `bbter_receiver` SET `readed`='1' WHERE ( msg_id= & user_id=17 )
+
+[ 2016-02-15T20:12:46+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/checkMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001367s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0039s ]
+NOTIC: [8] Undefined variable: msg_id E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\MessageController.class.php 第 55 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '& user_id=17 )' at line 1
+ [ SQL语句 ] : UPDATE `bbter_receiver` SET `readed`='1' WHERE ( msg_id= & user_id=17 )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '& user_id=17 )' at line 1
+ [ SQL语句 ] : UPDATE `bbter_receiver` SET `readed`='1' WHERE ( msg_id= & user_id=17 )
+
+[ 2016-02-15T20:12:46+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/checkMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001334s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0037s ]
+NOTIC: [8] Undefined variable: msg_id E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\MessageController.class.php 第 55 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '& user_id=17 )' at line 1
+ [ SQL语句 ] : UPDATE `bbter_receiver` SET `readed`='1' WHERE ( msg_id= & user_id=17 )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '& user_id=17 )' at line 1
+ [ SQL语句 ] : UPDATE `bbter_receiver` SET `readed`='1' WHERE ( msg_id= & user_id=17 )
+
+[ 2016-02-15T20:12:47+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/checkMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001643s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0065s ]
+NOTIC: [8] Undefined variable: msg_id E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\MessageController.class.php 第 55 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '& user_id=17 )' at line 1
+ [ SQL语句 ] : UPDATE `bbter_receiver` SET `readed`='1' WHERE ( msg_id= & user_id=17 )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '& user_id=17 )' at line 1
+ [ SQL语句 ] : UPDATE `bbter_receiver` SET `readed`='1' WHERE ( msg_id= & user_id=17 )
+
+[ 2016-02-15T20:13:38+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/checkMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0062s ]
+NOTIC: [8] Undefined variable: msg_id E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\MessageController.class.php 第 55 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `bbter_receiver` SET `readed`='1' WHERE ( msg_id=  )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `bbter_receiver` SET `readed`='1' WHERE ( msg_id=  )
+
+[ 2016-02-15T20:13:38+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/checkMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001014s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0039s ]
+NOTIC: [8] Undefined variable: msg_id E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\MessageController.class.php 第 55 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `bbter_receiver` SET `readed`='1' WHERE ( msg_id=  )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `bbter_receiver` SET `readed`='1' WHERE ( msg_id=  )
+
+[ 2016-02-15T20:13:38+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/checkMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0037s ]
+NOTIC: [8] Undefined variable: msg_id E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\MessageController.class.php 第 55 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `bbter_receiver` SET `readed`='1' WHERE ( msg_id=  )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `bbter_receiver` SET `readed`='1' WHERE ( msg_id=  )
+
+[ 2016-02-15T20:14:17+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/checkMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0061s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '&&user_id=1 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `bbter_receiver` WHERE ( msg_id=&&user_id=1 ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '&&user_id=1 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `bbter_receiver` WHERE ( msg_id=&&user_id=1 ) LIMIT 1  
+
+[ 2016-02-15T20:14:18+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/checkMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0058s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '&&user_id=1 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `bbter_receiver` WHERE ( msg_id=&&user_id=1 ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '&&user_id=1 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `bbter_receiver` WHERE ( msg_id=&&user_id=1 ) LIMIT 1  
+
+[ 2016-02-15T20:14:45+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/checkMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `bbter_receiver` WHERE ( msg_id=55&&user_id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007506s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007889s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001005s ]
+
+[ 2016-02-15T20:14:46+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/checkMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `bbter_receiver` WHERE ( msg_id=55&&user_id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006574s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006738s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000626s ]
+
+[ 2016-02-15T20:15:14+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/checkMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0055s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '&&user_id=1 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `bbter_receiver` WHERE ( msg_id=&&user_id=1 ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '&&user_id=1 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `bbter_receiver` WHERE ( msg_id=&&user_id=1 ) LIMIT 1  
+
+[ 2016-02-15T20:16:07+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/checkMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `bbter_receiver` WHERE ( msg_id=55&&user_id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0036s ]
+SQL: UPDATE `bbter_receiver` SET `readed`='10' WHERE ( msg_id=55&&17=1 ) [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006850s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000604s ]
+
+[ 2016-02-15T20:17:36+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/checkMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0059s ]
+SQL: UPDATE `bbter_receiver` SET `readed`='10' WHERE ( msg_id=55&&user_id=1 ) [ RunTime:0.0248s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007464s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000855s ]
+
+[ 2016-02-15T20:18:42+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/checkMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001301s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0061s ]
+SQL: UPDATE `bbter_receiver` SET `readed`='1' WHERE ( msg_id=55&&user_id=17 ) [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008513s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001468s ]
+
+[ 2016-02-15T20:18:53+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/checkMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002024s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0064s ]
+SQL: UPDATE `bbter_receiver` SET `readed`='1' WHERE ( msg_id=55&&user_id=1 ) [ RunTime:0.0622s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008268s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008438s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001386s ]
+
+[ 2016-02-15T20:35:10+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/addTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001112s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0161s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `bbt_message` [ RunTime:0.0086s ]
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`,`publish_time`) VALUES ('通知内容','通知标题','TASK','17','2016-02-15') [ RunTime:0.0374s ]
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0106s ]
+SQL: INSERT INTO `bbter_receiver` (`user_id`,`readed`,`msg_id`) VALUES ('17','0','56') [ RunTime:0.0283s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009630s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000621s ]
+
+[ 2016-02-15T20:45:59+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/addTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+
+[ 2016-02-15T20:46:28+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/addTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+
+[ 2016-02-15T20:46:56+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/addTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bbt_message` [ RunTime:0.0061s ]
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`,`publish_time`) VALUES ('通知内容','通知标题','TASK','17','2016-02-15') [ RunTime:0.0688s ]
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0076s ]
+SQL: INSERT INTO `bbter_receiver` (`user_id`,`readed`,`msg_id`) VALUES ('17','0','57') [ RunTime:0.0575s ]
+SQL: SHOW COLUMNS FROM `bbt_task_other` [ RunTime:0.0059s ]
+SQL: INSERT INTO `bbt_task_other` (`header`,`deadLine`) VALUES ('17','2016-02-15 20:45:07') [ RunTime:0.0592s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007031s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000656s ]
+
+[ 2016-02-15T20:50:19+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/addTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bbt_message` [ RunTime:0.0084s ]
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`,`publish_time`) VALUES ('通知内容','通知标题','TASK','17','2016-02-15') [ RunTime:0.0699s ]
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0056s ]
+SQL: INSERT INTO `bbter_receiver` (`user_id`,`readed`,`msg_id`) VALUES ('17','0','58') [ RunTime:0.0234s ]
+SQL: SHOW COLUMNS FROM `bbt_task_other` [ RunTime:0.0057s ]
+SQL: INSERT INTO `bbt_task_other` (`header`,`deadLine`) VALUES ('17','2016-02-15 20:45:07') [ RunTime:0.0596s ]
+SQL: SHOW COLUMNS FROM `bbt_task_observer` [ RunTime:0.0059s ]
+SQL: INSERT INTO `bbt_task_observer` (`task_id`,`user_id`) VALUES ('58','1') [ RunTime:0.0593s ]
+SQL: INSERT INTO `bbt_task_observer` (`task_id`,`user_id`) VALUES ('58','2') [ RunTime:0.0356s ]
+SQL: INSERT INTO `bbt_task_observer` (`task_id`,`user_id`) VALUES ('58','3') [ RunTime:0.0659s ]
+SQL: INSERT INTO `bbt_task_observer` (`task_id`,`user_id`) VALUES ('58','4') [ RunTime:0.0659s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007093s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000629s ]
+
+[ 2016-02-15T20:53:39+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/addTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bbt_message` [ RunTime:0.0063s ]
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`,`publish_time`) VALUES ('通知内容','通知标题','TASK','17','2016-02-15') [ RunTime:0.0612s ]
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0062s ]
+SQL: INSERT INTO `bbter_receiver` (`user_id`,`readed`,`msg_id`) VALUES ('17','0','59') [ RunTime:0.0581s ]
+SQL: SHOW COLUMNS FROM `bbt_task_other` [ RunTime:0.0062s ]
+SQL: INSERT INTO `bbt_task_other` (`header`,`deadLine`) VALUES ('17','2016-02-15 20:45:07') [ RunTime:0.0588s ]
+SQL: SHOW COLUMNS FROM `bbt_task_observer` [ RunTime:0.0064s ]
+SQL: INSERT INTO `bbt_task_observer` (`task_id`,`user_id`) VALUES ('59','1') [ RunTime:0.0279s ]
+SQL: INSERT INTO `bbt_task_observer` (`task_id`,`user_id`) VALUES ('59','2') [ RunTime:0.0301s ]
+SQL: INSERT INTO `bbt_task_observer` (`task_id`,`user_id`) VALUES ('59','3') [ RunTime:0.0660s ]
+SQL: INSERT INTO `bbt_task_observer` (`task_id`,`user_id`) VALUES ('59','4') [ RunTime:0.0656s ]
+SQL: SHOW COLUMNS FROM `bbt_task_sequence` [ RunTime:0.0067s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model.class.php 第 267 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 802 行.
+SQL: INSERT INTO `bbt_task_sequence` () VALUES () [ RunTime:0.0389s ]
+NOTIC: [2] Illegal string offset 'id' E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model.class.php 第 328 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model.class.php 第 267 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 802 行.
+SQL: INSERT INTO `bbt_task_sequence` () VALUES () [ RunTime:0.0382s ]
+NOTIC: [2] Illegal string offset 'id' E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model.class.php 第 328 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model.class.php 第 267 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Db\Driver.class.php 第 802 行.
+SQL: INSERT INTO `bbt_task_sequence` () VALUES () [ RunTime:0.0296s ]
+NOTIC: [2] Illegal string offset 'id' E:\wamp\wamp\www\BBTer\bbter-all\ThinkPHP\Library\Think\Model.class.php 第 328 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007254s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007492s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000659s ]
+
+[ 2016-02-15T20:55:59+08:00 ] ::1 /BBTer/bbter-all/index.php/Home/Message/addTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001266s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' E:\wamp\wamp\www\BBTer\bbter-all\Application\Home\Controller\tempController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `users` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bbt_message` [ RunTime:0.0058s ]
+SQL: INSERT INTO `bbt_message` (`description`,`title`,`type`,`publisher_id`,`publish_time`) VALUES ('通知内容','通知标题','TASK','17','2016-02-15') [ RunTime:0.0772s ]
+SQL: SHOW COLUMNS FROM `bbter_receiver` [ RunTime:0.0062s ]
+SQL: INSERT INTO `bbter_receiver` (`user_id`,`readed`,`msg_id`) VALUES ('17','0','60') [ RunTime:0.0232s ]
+SQL: SHOW COLUMNS FROM `bbt_task_other` [ RunTime:0.0060s ]
+SQL: INSERT INTO `bbt_task_other` (`header`,`deadLine`) VALUES ('17','2016-02-15 20:45:07') [ RunTime:0.0284s ]
+SQL: SHOW COLUMNS FROM `bbt_task_observer` [ RunTime:0.0077s ]
+SQL: INSERT INTO `bbt_task_observer` (`task_id`,`user_id`) VALUES ('60','1') [ RunTime:0.0575s ]
+SQL: INSERT INTO `bbt_task_observer` (`task_id`,`user_id`) VALUES ('60','2') [ RunTime:0.0658s ]
+SQL: INSERT INTO `bbt_task_observer` (`task_id`,`user_id`) VALUES ('60','3') [ RunTime:0.0303s ]
+SQL: INSERT INTO `bbt_task_observer` (`task_id`,`user_id`) VALUES ('60','4') [ RunTime:0.0352s ]
+SQL: SHOW COLUMNS FROM `bbt_task_sequence` [ RunTime:0.0061s ]
+SQL: INSERT INTO `bbt_task_sequence` (`task_id`,`content`,`finished`) VALUES ('60','烧开水','0') [ RunTime:0.0229s ]
+SQL: INSERT INTO `bbt_task_sequence` (`task_id`,`content`,`finished`) VALUES ('60','下面条','0') [ RunTime:0.0351s ]
+SQL: INSERT INTO `bbt_task_sequence` (`task_id`,`content`,`finished`) VALUES ('60','放盐','0') [ RunTime:0.0659s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007131s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007292s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000636s ]
+

@@ -1,0 +1,680 @@
+[ 2016-01-06T12:24:13+08:00 ] 192.168.1.131 /bbter/index.php/Home/SubActivity/submit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000126s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 56 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 63 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 33 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `departments` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `departments` WHERE ( name = '人力资源部' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `pitch_sub_activity` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `pitch_activity` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `pitch_sub_activity` WHERE ( activity_id=18 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( name = '人力资源部' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pitch_assignment` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `pitch_user` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0011s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-2147483648' at line 1
+ [ SQL语句 ] : SELECT u.id FROM users u,departments dprt,pitch_timetable tt,pitch_user pu WHERE ( (tt.table&134217728=0) AND tt.userId=u.id AND u.department_id=dprt.id AND u.id = pu.userid ) ORDER BY pu.pitchTimes desc LIMIT -2147483648  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-2147483648' at line 1
+ [ SQL语句 ] : SELECT u.id FROM users u,departments dprt,pitch_timetable tt,pitch_user pu WHERE ( (tt.table&134217728=0) AND tt.userId=u.id AND u.department_id=dprt.id AND u.id = pu.userid ) ORDER BY pu.pitchTimes desc LIMIT -2147483648  
+
+[ 2016-01-06T12:24:16+08:00 ] 192.168.1.131 /bbter/index.php/Home/Activity/obtainActivityList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000124s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 56 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 63 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 33 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `users` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `pitch_activity` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pitch_activity` ORDER BY id desc  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: time /home/cheese/www/bbter/Application/Home/Controller/ActivityController.class.php 第 42 行.
+NOTIC: [8] Undefined index: time /home/cheese/www/bbter/Application/Home/Controller/ActivityController.class.php 第 42 行.
+NOTIC: [8] Undefined index: time /home/cheese/www/bbter/Application/Home/Controller/ActivityController.class.php 第 42 行.
+NOTIC: [8] Undefined index: time /home/cheese/www/bbter/Application/Home/Controller/ActivityController.class.php 第 42 行.
+NOTIC: [8] Undefined index: time /home/cheese/www/bbter/Application/Home/Controller/ActivityController.class.php 第 42 行.
+NOTIC: [8] Undefined index: time /home/cheese/www/bbter/Application/Home/Controller/ActivityController.class.php 第 42 行.
+NOTIC: [8] Undefined index: time /home/cheese/www/bbter/Application/Home/Controller/ActivityController.class.php 第 42 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `pitch_activity` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001994s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000129s ]
+
+[ 2016-01-06T12:24:20+08:00 ] 192.168.1.131 /bbter/index.php/Home/SubActivity/getSaByAct
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 56 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 63 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 33 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `users` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `departments` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `departments` WHERE ( name = '人力资源部' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pitch_sub_activity` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `pitch_activity` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pitch_activity` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pitch_sub_activity` WHERE ( activity_id = 13 )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pitch_sub_activity` WHERE ( activity_id = 13 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `users` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `users` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `users` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `users` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `users` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001712s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001781s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000115s ]
+
+[ 2016-01-06T12:24:25+08:00 ] 192.168.1.130 /bbter/index.php/Home/State/selectPitchState
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 56 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 63 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 33 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `users` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `pitch_timetable` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM users u,pitch_timetable tt WHERE ( u.department_id = 1 AND tt.state = 0 OR tt.state = 1 AND u.id = tt.userid ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0006s ]
+SQL: SELECT u.*,tt.state,pu.pitchTimes,d.name dprtname,g.name grpname FROM users u,pitch_timetable tt,pitch_user pu,departments d,groups g WHERE ( u.id = pu.userId AND u.group_id = g.id AND u.department_id=d.id And d.id = 1 AND u.id = tt.userid AND (tt.state = 0 OR tt.state = 1) ) ORDER BY u.id desc LIMIT 0,8   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000061s ]
+
+[ 2016-01-06T12:24:32+08:00 ] 192.168.1.130 /bbter/index.php/Home/Activity/obtainActivityList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 56 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 63 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 33 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `users` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pitch_activity` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pitch_activity` ORDER BY id desc  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: time /home/cheese/www/bbter/Application/Home/Controller/ActivityController.class.php 第 42 行.
+NOTIC: [8] Undefined index: time /home/cheese/www/bbter/Application/Home/Controller/ActivityController.class.php 第 42 行.
+NOTIC: [8] Undefined index: time /home/cheese/www/bbter/Application/Home/Controller/ActivityController.class.php 第 42 行.
+NOTIC: [8] Undefined index: time /home/cheese/www/bbter/Application/Home/Controller/ActivityController.class.php 第 42 行.
+NOTIC: [8] Undefined index: time /home/cheese/www/bbter/Application/Home/Controller/ActivityController.class.php 第 42 行.
+NOTIC: [8] Undefined index: time /home/cheese/www/bbter/Application/Home/Controller/ActivityController.class.php 第 42 行.
+NOTIC: [8] Undefined index: time /home/cheese/www/bbter/Application/Home/Controller/ActivityController.class.php 第 42 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `pitch_activity` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002385s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002467s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000120s ]
+
+[ 2016-01-06T12:25:04+08:00 ] 192.168.1.124 /bbter/index.php/Home/SubActivity/getpublishsa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 56 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 63 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 33 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `departments` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `departments` WHERE ( name = '人力资源部' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `pitch_activity` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pitch_sub_activity` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pitch_sub_activity` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: padata /home/cheese/www/bbter/Application/Home/Controller/SubActivityController.class.php 第 262 行.
+SQL: SELECT * FROM `departments` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: dprts /home/cheese/www/bbter/Application/Home/Controller/SubActivityController.class.php 第 322 行.
+SQL: SELECT * FROM `departments` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `users` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `pitch_assignment` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0010s ]
+SQL: SELECT u.*,grp.name grpname,dprt.name dprtname FROM users u,departments dprt,groups grp,pitch_assignment pas WHERE ( u.id = pas.userId AND pas.subActivityId = 27 AND u.department_id = dprt.id AND u.group_id = grp.id )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001753s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001833s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000119s ]
+
+[ 2016-01-06T12:25:06+08:00 ] 192.168.1.124 /bbter/index.php/Home/SubActivity/getpublishsa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 56 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 63 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 33 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `users` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `departments` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `departments` WHERE ( name = '人力资源部' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pitch_activity` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `pitch_sub_activity` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pitch_sub_activity` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: padata /home/cheese/www/bbter/Application/Home/Controller/SubActivityController.class.php 第 262 行.
+SQL: SELECT * FROM `departments` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: dprts /home/cheese/www/bbter/Application/Home/Controller/SubActivityController.class.php 第 322 行.
+SQL: SELECT * FROM `departments` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `users` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `pitch_assignment` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0010s ]
+SQL: SELECT u.*,grp.name grpname,dprt.name dprtname FROM users u,departments dprt,groups grp,pitch_assignment pas WHERE ( u.id = pas.userId AND pas.subActivityId = 27 AND u.department_id = dprt.id AND u.group_id = grp.id )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001476s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000080s ]
+
+[ 2016-01-06T12:25:14+08:00 ] 192.168.1.124 /bbter/index.php/Home/State/selectPitchState
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000118s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 56 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 63 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 33 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `users` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pitch_timetable` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM users u,pitch_timetable tt WHERE ( u.department_id = 1 AND tt.state = 0 OR tt.state = 1 AND u.id = tt.userid ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0011s ]
+SQL: SELECT u.*,tt.state,pu.pitchTimes,d.name dprtname,g.name grpname FROM users u,pitch_timetable tt,pitch_user pu,departments d,groups g WHERE ( u.id = pu.userId AND u.group_id = g.id AND u.department_id=d.id And d.id = 1 AND u.id = tt.userid AND (tt.state = 0 OR tt.state = 1) ) ORDER BY u.id desc LIMIT 0,8   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001363s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000092s ]
+
+[ 2016-01-06T12:25:23+08:00 ] 192.168.1.130 /bbter/index.php/Home/UserData/getUserData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 56 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 63 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 33 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `users` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `users` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `pitch_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pitch_user` WHERE ( userId = '90' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `groups` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `departments` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `departments` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `pitch_timetable` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: userid /home/cheese/www/bbter/Application/Home/Controller/UserDataController.class.php 第 66 行.
+SQL: SELECT * FROM `pitch_timetable` WHERE (  userid = ''  ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001673s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001762s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000122s ]
+
+[ 2016-01-06T12:25:37+08:00 ] 192.168.1.124 /bbter/index.php/Home/State/selectPitchState
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 56 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 63 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 33 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `users` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pitch_timetable` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM users u,pitch_timetable tt WHERE ( u.department_id = 1 AND tt.state = 0 OR tt.state = 1 AND u.id = tt.userid ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0011s ]
+SQL: SELECT u.*,tt.state,pu.pitchTimes,d.name dprtname,g.name grpname FROM users u,pitch_timetable tt,pitch_user pu,departments d,groups g WHERE ( u.id = pu.userId AND u.group_id = g.id AND u.department_id=d.id And d.id = 1 AND u.id = tt.userid AND (tt.state = 0 OR tt.state = 1) ) ORDER BY u.id desc LIMIT 0,8   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001723s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+
+[ 2016-01-06T12:25:46+08:00 ] 192.168.1.130 /bbter/index.php/Home/Activity/obtainActivityList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 56 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 63 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 33 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `users` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pitch_activity` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pitch_activity` ORDER BY id desc  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: time /home/cheese/www/bbter/Application/Home/Controller/ActivityController.class.php 第 42 行.
+NOTIC: [8] Undefined index: time /home/cheese/www/bbter/Application/Home/Controller/ActivityController.class.php 第 42 行.
+NOTIC: [8] Undefined index: time /home/cheese/www/bbter/Application/Home/Controller/ActivityController.class.php 第 42 行.
+NOTIC: [8] Undefined index: time /home/cheese/www/bbter/Application/Home/Controller/ActivityController.class.php 第 42 行.
+NOTIC: [8] Undefined index: time /home/cheese/www/bbter/Application/Home/Controller/ActivityController.class.php 第 42 行.
+NOTIC: [8] Undefined index: time /home/cheese/www/bbter/Application/Home/Controller/ActivityController.class.php 第 42 行.
+NOTIC: [8] Undefined index: time /home/cheese/www/bbter/Application/Home/Controller/ActivityController.class.php 第 42 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `pitch_activity` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002049s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+
+[ 2016-01-06T12:25:49+08:00 ] 192.168.1.130 /bbter/index.php/Home/State/selectPitchState
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 56 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 63 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 33 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `users` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pitch_timetable` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM users u,pitch_timetable tt WHERE ( u.department_id = 1 AND tt.state = 0 OR tt.state = 1 AND u.id = tt.userid ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0011s ]
+SQL: SELECT u.*,tt.state,pu.pitchTimes,d.name dprtname,g.name grpname FROM users u,pitch_timetable tt,pitch_user pu,departments d,groups g WHERE ( u.id = pu.userId AND u.group_id = g.id AND u.department_id=d.id And d.id = 1 AND u.id = tt.userid AND (tt.state = 0 OR tt.state = 1) ) ORDER BY u.id desc LIMIT 0,8   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001962s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000172s ]
+
+[ 2016-01-06T12:25:55+08:00 ] 192.168.1.130 /bbter/index.php/Home/State/selectPitchState
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000116s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 56 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 63 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 33 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `users` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pitch_timetable` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM users u,pitch_timetable tt WHERE ( u.department_id = 1 AND tt.state = 0 OR tt.state = 1 AND u.id = tt.userid ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0012s ]
+SQL: SELECT u.*,tt.state,pu.pitchTimes,d.name dprtname,g.name grpname FROM users u,pitch_timetable tt,pitch_user pu,departments d,groups g WHERE ( u.id = pu.userId AND u.group_id = g.id AND u.department_id=d.id And d.id = 1 AND u.id = tt.userid AND (tt.state = 0 OR tt.state = 1) ) ORDER BY u.id desc LIMIT 0,8   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001653s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001727s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000113s ]
+
+[ 2016-01-06T12:26:15+08:00 ] 192.168.1.131 /bbter/index.php/Home/SubActivity/getSaByAct
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 56 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 63 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 33 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `users` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `departments` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `departments` WHERE ( name = '人力资源部' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `pitch_sub_activity` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `pitch_activity` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pitch_activity` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `pitch_sub_activity` WHERE ( activity_id = 13 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pitch_sub_activity` WHERE ( activity_id = 13 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `users` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `users` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `users` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `users` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `users` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001697s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001761s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000102s ]
+
+[ 2016-01-06T12:26:17+08:00 ] 192.168.1.130 /bbter/index.php/Home/UserData/getOtherPersonNoClassData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 56 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 63 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 33 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `users` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `users` WHERE ( student_number = 201330550320 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `groups` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `pitch_timetable` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pitch_timetable` WHERE (  userid = '3'  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pitch_timetable` WHERE (  userid = '3'  ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001972s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002050s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000132s ]
+
+[ 2016-01-06T12:26:18+08:00 ] 192.168.1.130 /bbter/index.php/Home/UserData/getOtherPersonNoClassData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 56 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 63 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 33 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `users` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `users` WHERE ( student_number = 201330650129 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `groups` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `pitch_timetable` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pitch_timetable` WHERE (  userid = '90'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `pitch_timetable` WHERE (  userid = '90'  ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001848s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001891s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000070s ]
+
+[ 2016-01-06T12:26:19+08:00 ] 192.168.1.130 /bbter/index.php/Home/UserData/getOtherPersonNoClassData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 56 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 63 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 33 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `users` WHERE ( student_number = 201330650129 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `groups` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `pitch_timetable` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pitch_timetable` WHERE (  userid = '90'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `pitch_timetable` WHERE (  userid = '90'  ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001614s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000075s ]
+
+[ 2016-01-06T12:26:20+08:00 ] 192.168.1.131 /bbter/index.php/Home/Activity/obtainActivityList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 56 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 63 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 33 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `users` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pitch_activity` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pitch_activity` ORDER BY id desc  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: time /home/cheese/www/bbter/Application/Home/Controller/ActivityController.class.php 第 42 行.
+NOTIC: [8] Undefined index: time /home/cheese/www/bbter/Application/Home/Controller/ActivityController.class.php 第 42 行.
+NOTIC: [8] Undefined index: time /home/cheese/www/bbter/Application/Home/Controller/ActivityController.class.php 第 42 行.
+NOTIC: [8] Undefined index: time /home/cheese/www/bbter/Application/Home/Controller/ActivityController.class.php 第 42 行.
+NOTIC: [8] Undefined index: time /home/cheese/www/bbter/Application/Home/Controller/ActivityController.class.php 第 42 行.
+NOTIC: [8] Undefined index: time /home/cheese/www/bbter/Application/Home/Controller/ActivityController.class.php 第 42 行.
+NOTIC: [8] Undefined index: time /home/cheese/www/bbter/Application/Home/Controller/ActivityController.class.php 第 42 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `pitch_activity` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001736s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001807s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000109s ]
+
+[ 2016-01-06T12:26:20+08:00 ] 192.168.1.130 /bbter/index.php/Home/UserData/getOtherPersonNoClassData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 56 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 63 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 33 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `users` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `users` WHERE ( student_number = 201330550320 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `groups` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `pitch_timetable` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pitch_timetable` WHERE (  userid = '3'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `pitch_timetable` WHERE (  userid = '3'  ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001652s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001716s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000088s ]
+
+[ 2016-01-06T12:26:22+08:00 ] 192.168.1.130 /bbter/index.php/Home/UserData/getOtherPersonNoClassData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000134s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant BoxTokenHelper - assumed 'BoxTokenHelper' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 56 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 63 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 33 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `users` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `users` WHERE ( student_number = 201330550320 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `groups` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `pitch_timetable` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pitch_timetable` WHERE (  userid = '3'  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pitch_timetable` WHERE (  userid = '3'  ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001636s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001705s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000115s ]
+

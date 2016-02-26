@@ -1,0 +1,1469 @@
+[ 2015-11-09T00:02:11+08:00 ] 222.201.172.52 /bbter/index.php/Home/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' /home/cheese/www/bbter/Application/Home/Controller/LoginController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' /home/cheese/www/bbter/Application/Home/Controller/LoginController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Token - assumed 'Token' /home/cheese/www/bbter/Application/Home/Controller/LoginController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `users` WHERE ( student_number = 201330650129 ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 33 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001736s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001817s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000130s ]
+
+[ 2015-11-09T00:02:23+08:00 ] 222.201.172.52 /bbter/index.php/Home/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' /home/cheese/www/bbter/Application/Home/Controller/LoginController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' /home/cheese/www/bbter/Application/Home/Controller/LoginController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Token - assumed 'Token' /home/cheese/www/bbter/Application/Home/Controller/LoginController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `users` WHERE ( student_number = 201330650129 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 33 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001558s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000091s ]
+
+[ 2015-11-09T00:02:23+08:00 ] 222.201.172.52 /bbter/index.php/Home/User/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Token - assumed 'Token' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 56 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 63 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 33 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `users` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 3 for Home\Controller\UserController::getInfo(), called in /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php on line 93 and defined /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 43 行.
+NOTIC: [8] Undefined variable: others /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `departments` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `users` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001618s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001688s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000106s ]
+
+[ 2015-11-09T00:02:25+08:00 ] 222.201.172.52 /bbter/index.php/Home/User/listall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Token - assumed 'Token' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 56 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 63 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 33 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `users` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0010s ]
+SQL: SELECT `users`.*,`departments`.`name` AS 'dprtname',`groups`.`name` AS 'grpname' FROM `departments`,`users`,`groups` WHERE  `users`.`department_id` = `departments`.`id` AND `users`.`group_id` = `groups`.`id` AND `users`.`completed`=1 AND `groups`.`id` != 5  AND `status`='NORMAL'ORDER BY group_id desc LIMIT 0,15 [ RunTime:0.0009s ]
+SQL: SELECT count(*) AS cnt FROM `departments`,`users`,`groups` WHERE  `users`.`department_id` = `departments`.`id` AND `users`.`group_id` = `groups`.`id` AND `users`.`completed`=1 AND `groups`.`id` != 5  AND `status`='NORMAL' [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002418s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000117s ]
+
+[ 2015-11-09T00:02:25+08:00 ] 222.201.172.52 /bbter/index.php/Home/Department/listAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Token - assumed 'Token' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 56 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 63 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 33 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `users` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `departments` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `departments`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001704s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000106s ]
+
+[ 2015-11-09T00:02:27+08:00 ] 222.201.172.52 /bbter/index.php/Home/User/listall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Token - assumed 'Token' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 56 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 63 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 33 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `users` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0007s ]
+SQL: SELECT `users`.*,`departments`.`name` AS 'dprtname',`groups`.`name` AS 'grpname' FROM `departments`,`users`,`groups` WHERE  `users`.`department_id` = `departments`.`id` AND `users`.`group_id` = `groups`.`id` AND `users`.`completed`=1 AND `groups`.`id` != 5  AND `status`='NORMAL'ORDER BY group_id desc LIMIT 0,15 [ RunTime:0.0002s ]
+SQL: SELECT count(*) AS cnt FROM `departments`,`users`,`groups` WHERE  `users`.`department_id` = `departments`.`id` AND `users`.`group_id` = `groups`.`id` AND `users`.`completed`=1 AND `groups`.`id` != 5  AND `status`='NORMAL' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001546s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000079s ]
+
+[ 2015-11-09T00:02:29+08:00 ] 222.201.172.52 /bbter/index.php/Home/User/dprtall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000118s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Token - assumed 'Token' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 56 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 63 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 33 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `users` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `users` WHERE `department_id` = 1 AND `status` = 'NORMAL' ORDER BY group_id desc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `departments` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='5' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='5' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='5' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='5' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001063s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000067s ]
+
+[ 2015-11-09T00:02:30+08:00 ] 222.201.172.52 /bbter/index.php/Home/User/listRcl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Token - assumed 'Token' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 56 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 63 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 33 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `users` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE `department_id` = 1 AND `status` <> 'NORMAL' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0010s ]
+SQL: SELECT u.*,r.id rid,g.name gname FROM users u,recycles r,groups g WHERE ( u.id = r.user_id AND u.group_id = g.id AND u.department_id=1 AND (u.status = 'RETIRED' OR u.status='LEFT') ) ORDER BY r.id desc LIMIT 0,15   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001633s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001716s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000110s ]
+
+[ 2015-11-09T00:02:30+08:00 ] 222.201.172.52 /bbter/index.php/Home/User/dprtall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000134s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Token - assumed 'Token' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 56 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 63 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 33 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `users` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `users` WHERE `department_id` = 1 AND `status` = 'NORMAL' ORDER BY group_id desc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `departments` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='5' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='5' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='5' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='5' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001064s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000065s ]
+
+[ 2015-11-09T00:02:31+08:00 ] 222.201.172.52 /bbter/index.php/Home/User/listall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000118s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Token - assumed 'Token' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 56 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 63 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 33 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `users` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0012s ]
+SQL: SELECT `users`.*,`departments`.`name` AS 'dprtname',`groups`.`name` AS 'grpname' FROM `departments`,`users`,`groups` WHERE  `users`.`department_id` = `departments`.`id` AND `users`.`group_id` = `groups`.`id` AND `users`.`completed`=1 AND `groups`.`id` != 5  AND `status`='NORMAL'ORDER BY group_id desc LIMIT 0,15 [ RunTime:0.0002s ]
+SQL: SELECT count(*) AS cnt FROM `departments`,`users`,`groups` WHERE  `users`.`department_id` = `departments`.`id` AND `users`.`group_id` = `groups`.`id` AND `users`.`completed`=1 AND `groups`.`id` != 5  AND `status`='NORMAL' [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001757s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001832s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000108s ]
+
+[ 2015-11-09T00:02:32+08:00 ] 222.201.172.52 /bbter/index.php/Home/Department/listAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000118s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Token - assumed 'Token' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 56 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 63 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 33 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `users` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `departments` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `departments`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000112s ]
+
+[ 2015-11-09T00:02:32+08:00 ] 222.201.172.52 /bbter/index.php/Home/User/listall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Token - assumed 'Token' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 56 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 63 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 33 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `users` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0010s ]
+SQL: SELECT `users`.*,`departments`.`name` AS 'dprtname',`groups`.`name` AS 'grpname' FROM `departments`,`users`,`groups` WHERE  `users`.`department_id` = `departments`.`id` AND `users`.`group_id` = `groups`.`id` AND `users`.`completed`=1 AND `groups`.`id` != 5  AND `status`='NORMAL'ORDER BY group_id desc LIMIT 0,15 [ RunTime:0.0001s ]
+SQL: SELECT count(*) AS cnt FROM `departments`,`users`,`groups` WHERE  `users`.`department_id` = `departments`.`id` AND `users`.`group_id` = `groups`.`id` AND `users`.`completed`=1 AND `groups`.`id` != 5  AND `status`='NORMAL' [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001687s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000103s ]
+
+[ 2015-11-09T00:02:33+08:00 ] 222.201.172.52 /bbter/index.php/Home/User/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Token - assumed 'Token' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 56 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 63 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 33 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `users` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 3 for Home\Controller\UserController::getInfo(), called in /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php on line 93 and defined /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 43 行.
+NOTIC: [8] Undefined variable: others /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `departments` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `users` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `departments` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `groups` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001693s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000105s ]
+
+[ 2015-11-09T00:14:02+08:00 ] 222.201.172.52 /bbter/index.php/Home/User/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000118s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Token - assumed 'Token' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 56 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 63 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 33 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `users` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 3 for Home\Controller\UserController::getInfo(), called in /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php on line 93 and defined /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 43 行.
+NOTIC: [8] Undefined variable: others /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `departments` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `users` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `departments` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `groups` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001673s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000111s ]
+
+[ 2015-11-09T00:14:04+08:00 ] 222.201.172.52 /bbter/index.php/Home/User/listall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Token - assumed 'Token' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 56 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 63 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 33 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `users` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0010s ]
+SQL: SELECT `users`.*,`departments`.`name` AS 'dprtname',`groups`.`name` AS 'grpname' FROM `departments`,`users`,`groups` WHERE  `users`.`department_id` = `departments`.`id` AND `users`.`group_id` = `groups`.`id` AND `users`.`completed`=1 AND `groups`.`id` != 5  AND `status`='NORMAL'ORDER BY group_id desc LIMIT 0,15 [ RunTime:0.0001s ]
+SQL: SELECT count(*) AS cnt FROM `departments`,`users`,`groups` WHERE  `users`.`department_id` = `departments`.`id` AND `users`.`group_id` = `groups`.`id` AND `users`.`completed`=1 AND `groups`.`id` != 5  AND `status`='NORMAL' [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001590s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001662s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000104s ]
+
+[ 2015-11-09T00:14:08+08:00 ] 222.201.172.52 /bbter/index.php/Home/User/listall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Token - assumed 'Token' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 56 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 63 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 33 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `users` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0010s ]
+SQL: SELECT `users`.*,`departments`.`name` AS 'dprtname',`groups`.`name` AS 'grpname' FROM `departments`,`users`,`groups` WHERE  `users`.`department_id` = `departments`.`id` AND `users`.`group_id` = `groups`.`id` AND `users`.`completed`=1 AND `groups`.`id` != 5  AND `status`='NORMAL'AND(`users`.`name` like '%20%' OR `users`.`student_number` like '%20%' OR`users`.`mobile` like '%20%' OR `users`.`short_mobile` like '%20%')ORDER BY group_id desc LIMIT 0,15 [ RunTime:0.0009s ]
+SQL: SELECT count(*) AS cnt FROM `departments`,`users`,`groups` WHERE  `users`.`department_id` = `departments`.`id` AND `users`.`group_id` = `groups`.`id` AND `users`.`completed`=1 AND `groups`.`id` != 5  AND `status`='NORMAL'AND(`users`.`name` like '%20%' OR `users`.`student_number` like '%20%' OR`users`.`mobile` like '%20%' OR `users`.`short_mobile` like '%20%') [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001706s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+
+[ 2015-11-09T00:14:10+08:00 ] 222.201.172.52 /bbter/index.php/Home/User/listall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000216s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Token - assumed 'Token' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 56 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 63 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 33 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `users` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0011s ]
+SQL: SELECT `users`.*,`departments`.`name` AS 'dprtname',`groups`.`name` AS 'grpname' FROM `departments`,`users`,`groups` WHERE  `users`.`department_id` = `departments`.`id` AND `users`.`group_id` = `groups`.`id` AND `users`.`completed`=1 AND `groups`.`id` != 5  AND `status`='NORMAL'AND(`users`.`name` like '%20%' OR `users`.`student_number` like '%20%' OR`users`.`mobile` like '%20%' OR `users`.`short_mobile` like '%20%')ORDER BY group_id desc LIMIT 15,15 [ RunTime:0.0011s ]
+SQL: SELECT count(*) AS cnt FROM `departments`,`users`,`groups` WHERE  `users`.`department_id` = `departments`.`id` AND `users`.`group_id` = `groups`.`id` AND `users`.`completed`=1 AND `groups`.`id` != 5  AND `status`='NORMAL'AND(`users`.`name` like '%20%' OR `users`.`student_number` like '%20%' OR`users`.`mobile` like '%20%' OR `users`.`short_mobile` like '%20%') [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001709s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001780s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000106s ]
+
+[ 2015-11-09T00:14:11+08:00 ] 222.201.172.52 /bbter/index.php/Home/User/listall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000121s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Token - assumed 'Token' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 56 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 63 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 33 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `users` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0011s ]
+SQL: SELECT `users`.*,`departments`.`name` AS 'dprtname',`groups`.`name` AS 'grpname' FROM `departments`,`users`,`groups` WHERE  `users`.`department_id` = `departments`.`id` AND `users`.`group_id` = `groups`.`id` AND `users`.`completed`=1 AND `groups`.`id` != 5  AND `status`='NORMAL'AND(`users`.`name` like '%20%' OR `users`.`student_number` like '%20%' OR`users`.`mobile` like '%20%' OR `users`.`short_mobile` like '%20%')ORDER BY group_id desc LIMIT 0,15 [ RunTime:0.0002s ]
+SQL: SELECT count(*) AS cnt FROM `departments`,`users`,`groups` WHERE  `users`.`department_id` = `departments`.`id` AND `users`.`group_id` = `groups`.`id` AND `users`.`completed`=1 AND `groups`.`id` != 5  AND `status`='NORMAL'AND(`users`.`name` like '%20%' OR `users`.`student_number` like '%20%' OR`users`.`mobile` like '%20%' OR `users`.`short_mobile` like '%20%') [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001716s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000116s ]
+
+[ 2015-11-09T00:14:12+08:00 ] 222.201.172.52 /bbter/index.php/Home/User/listall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Token - assumed 'Token' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 56 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 63 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 33 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `users` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0010s ]
+SQL: SELECT `users`.*,`departments`.`name` AS 'dprtname',`groups`.`name` AS 'grpname' FROM `departments`,`users`,`groups` WHERE  `users`.`department_id` = `departments`.`id` AND `users`.`group_id` = `groups`.`id` AND `users`.`completed`=1 AND `groups`.`id` != 5  AND `status`='NORMAL'AND(`users`.`name` like '%20%' OR `users`.`student_number` like '%20%' OR`users`.`mobile` like '%20%' OR `users`.`short_mobile` like '%20%')ORDER BY group_id desc LIMIT 15,15 [ RunTime:0.0001s ]
+SQL: SELECT count(*) AS cnt FROM `departments`,`users`,`groups` WHERE  `users`.`department_id` = `departments`.`id` AND `users`.`group_id` = `groups`.`id` AND `users`.`completed`=1 AND `groups`.`id` != 5  AND `status`='NORMAL'AND(`users`.`name` like '%20%' OR `users`.`student_number` like '%20%' OR`users`.`mobile` like '%20%' OR `users`.`short_mobile` like '%20%') [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001580s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001652s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000105s ]
+
+[ 2015-11-09T00:14:13+08:00 ] 222.201.172.52 /bbter/index.php/Home/User/listall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000116s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Token - assumed 'Token' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 56 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 63 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 33 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `users` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0011s ]
+SQL: SELECT `users`.*,`departments`.`name` AS 'dprtname',`groups`.`name` AS 'grpname' FROM `departments`,`users`,`groups` WHERE  `users`.`department_id` = `departments`.`id` AND `users`.`group_id` = `groups`.`id` AND `users`.`completed`=1 AND `groups`.`id` != 5  AND `status`='NORMAL'AND(`users`.`name` like '%20%' OR `users`.`student_number` like '%20%' OR`users`.`mobile` like '%20%' OR `users`.`short_mobile` like '%20%')ORDER BY group_id desc LIMIT 0,15 [ RunTime:0.0002s ]
+SQL: SELECT count(*) AS cnt FROM `departments`,`users`,`groups` WHERE  `users`.`department_id` = `departments`.`id` AND `users`.`group_id` = `groups`.`id` AND `users`.`completed`=1 AND `groups`.`id` != 5  AND `status`='NORMAL'AND(`users`.`name` like '%20%' OR `users`.`student_number` like '%20%' OR`users`.`mobile` like '%20%' OR `users`.`short_mobile` like '%20%') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000109s ]
+
+[ 2015-11-09T00:14:14+08:00 ] 222.201.172.52 /bbter/index.php/Home/User/dprtall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000118s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Token - assumed 'Token' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 56 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 63 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 33 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `users` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users` WHERE `department_id` = 1 AND `status` = 'NORMAL' ORDER BY group_id desc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `departments` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='5' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='5' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='5' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='5' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000947s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000985s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000061s ]
+
+[ 2015-11-09T00:14:21+08:00 ] 222.201.172.52 /bbter/index.php/Home/User/othersinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Token - assumed 'Token' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 56 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 63 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 33 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `departments` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `users` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `departments` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001590s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001661s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000113s ]
+
+[ 2015-11-09T00:14:23+08:00 ] 222.201.172.52 /bbter/index.php/Home/User/dprtall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Token - assumed 'Token' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 56 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 63 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 33 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `users` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users` WHERE `department_id` = 1 AND `status` = 'NORMAL' ORDER BY group_id desc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `departments` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `groups` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='5' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='5' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='5' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='5' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `departments` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `groups` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 551 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002285s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002340s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000071s ]
+
+[ 2015-11-09T00:14:25+08:00 ] 222.201.172.52 /bbter/index.php/Home/User/listall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000121s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Token - assumed 'Token' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 56 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 63 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 33 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `users` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0007s ]
+SQL: SELECT `users`.*,`departments`.`name` AS 'dprtname',`groups`.`name` AS 'grpname' FROM `departments`,`users`,`groups` WHERE  `users`.`department_id` = `departments`.`id` AND `users`.`group_id` = `groups`.`id` AND `users`.`completed`=1 AND `groups`.`id` != 5  AND `status`='NORMAL'ORDER BY group_id desc LIMIT 0,15 [ RunTime:0.0001s ]
+SQL: SELECT count(*) AS cnt FROM `departments`,`users`,`groups` WHERE  `users`.`department_id` = `departments`.`id` AND `users`.`group_id` = `groups`.`id` AND `users`.`completed`=1 AND `groups`.`id` != 5  AND `status`='NORMAL' [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+NOTIC: [8] Undefined index: image /home/cheese/www/bbter/Application/Home/Controller/UserController.class.php 第 519 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001647s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001734s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+
+[ 2015-11-09T00:14:25+08:00 ] 222.201.172.52 /bbter/index.php/Home/Department/listAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Use of undefined constant Org - assumed 'Org' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Util - assumed 'Util' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Use of undefined constant Token - assumed 'Token' /home/cheese/www/bbter/Application/Home/Controller/BaseController.class.php 第 5 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 56 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 63 行.
+NOTIC: [8] Undefined variable: char /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 33 行.
+NOTIC: [8] Undefined variable: str /home/cheese/www/bbter/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `users` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `departments` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `departments`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001677s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000108s ]
+
